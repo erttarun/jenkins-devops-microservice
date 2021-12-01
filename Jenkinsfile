@@ -7,7 +7,7 @@ pipeline {
                          //sh 'mvn --version'
                           echo "Build"
                           echo "BUILD_NUMBER - $env.BUILD_NUMBER"
-                          echo "BUILD_ID" - $env.BUILD_ID"
+                          echo "BUILD_ID - $env.BUILD_ID"
                        }
                    }
                    stage('Test') {
