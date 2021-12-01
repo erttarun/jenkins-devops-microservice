@@ -24,7 +24,7 @@ pipeline {
                    }
                    stage('Test') {
                        steps {
-                          sh "mv test"
+                          sh "mvn test"
                        }
                    }
                    stage('Integration Test') {
